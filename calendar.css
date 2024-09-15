@@ -1,0 +1,46 @@
+/* Style global du body */
+body {
+    background: url('assets/bg-DiuBldD_.jpg') no-repeat center center fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centrer et donner de l'espace autour du calendrier */
+#calendar {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* En-tête */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    color: #4a90e2;
+}
+
+/* Evénements dans le calendrier */
+.fc-event {
+    background-color: #4a90e2;
+    border: none;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Adaptation pour les petits écrans */
+@media (max-width: 768px) {
+    #calendar {
+        width: 95%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+}
